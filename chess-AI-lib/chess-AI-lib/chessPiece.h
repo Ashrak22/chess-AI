@@ -18,7 +18,7 @@ using namespace std;
 
 namespace chessAI
 {
-	enum class STONES
+	public enum class STONES
 	{
 		PAWN,
 		KNIGHT,
@@ -29,13 +29,15 @@ namespace chessAI
 		EMPTY
 	} typedef stones_t;
 
-	enum class COLOUR
+	public enum class COLOUR
 	{
 		BLACK,
 		WHITE,
 		NONE
 	} typedef colour_t;
+
 	ostream& operator<< (ostream& os, colour_t);
+	
 	class chessPiece {
 	public:
 		chessPiece();

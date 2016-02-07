@@ -16,6 +16,12 @@
 
 namespace chessAI
 {
+	void chessPiece::clear()
+	{
+		colour = COLOUR::NONE;
+		type = STONES::EMPTY;
+	}
+
 	chessPiece::chessPiece() {
 		colour = COLOUR::NONE;
 		type = STONES::EMPTY;

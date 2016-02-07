@@ -12,7 +12,12 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            chessAI.cChessGame test = new cChessGame();
+            cChessGame test = new cChessGame();
+            cMove move = new cMove();
+            move.from = "A2";
+            move.to = "A3";
+            test.move();
+
         }
     }
 }

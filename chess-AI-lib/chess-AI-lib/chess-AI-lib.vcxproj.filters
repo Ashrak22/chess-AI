@@ -24,9 +24,6 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="chess-AI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="chessBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>

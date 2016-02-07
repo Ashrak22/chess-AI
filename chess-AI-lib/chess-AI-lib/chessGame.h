@@ -29,14 +29,15 @@ namespace chessAI
 		chessGame();
 		chessGame(const chessGame& orig);
 		bool move(move_t tryMove);
-		bool validatePawn(move_t tryMove);
-		bool validateRook(move_t tryMove);
-		bool validateKnight(move_t tryMove);
-		bool validateBishop(move_t tryMove);
+		
 		chessBoard showBoard();
 		friend ostream& operator<< (ostream& os, chessGame& game);
 		virtual ~chessGame();
 	private:
+		bool validatePawn(move_t tryMove);
+		bool validateRook(move_t tryMove);
+		bool validateKnight(move_t tryMove);
+		bool validateBishop(move_t tryMove);
 		chessBoard mBoard;
 		vector<move_t> moves;
 		chessPiece lastTaken;

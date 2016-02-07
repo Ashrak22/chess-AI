@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="chess-AI-lib">
-      <HintPath>..\Debug\chess-AI-lib.dll</HintPath>
+    <Reference Include="chess-AI-lib, Version=1.0.5881.27606, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\x64\Debug\chess-AI-lib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
