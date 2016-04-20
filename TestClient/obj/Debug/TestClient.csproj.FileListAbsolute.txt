@@ -1,0 +1,10 @@
+D:\src\chess-AI\TestClient\bin\Debug\TestClient.exe.config
+D:\src\chess-AI\TestClient\bin\Debug\TestClient.exe
+D:\src\chess-AI\TestClient\bin\Debug\TestClient.pdb
+D:\src\chess-AI\TestClient\bin\Debug\BaseLib.dll
+D:\src\chess-AI\TestClient\bin\Debug\BaseLib.pdb
+D:\src\chess-AI\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+D:\src\chess-AI\TestClient\obj\Debug\TestClient.exe
+D:\src\chess-AI\TestClient\obj\Debug\TestClient.pdb
+D:\src\chess-AI\TestClient\bin\Debug\ChessClientLib.dll
+D:\src\chess-AI\TestClient\bin\Debug\ChessClientLib.pdb

@@ -7,3 +7,6 @@ D:\src\chess-AI\TestApp\obj\Debug\TestApp.exe
 D:\src\chess-AI\TestApp\obj\Debug\TestApp.pdb
 D:\src\chess-AI\TestApp\bin\Debug\chess-AI-lib.dll
 D:\src\chess-AI\TestApp\bin\Debug\chess-AI-lib.pdb
+D:\src\chess-AI\Debug\TestApp.exe.config
+D:\src\chess-AI\Debug\TestApp.exe
+D:\src\chess-AI\Debug\TestApp.pdb

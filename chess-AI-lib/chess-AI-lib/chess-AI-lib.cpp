@@ -11,11 +11,11 @@ namespace chessAI
 		mGame = new chessGame();
 	}
 
-	bool cChessGame::move(cMove move)
+	bool cChessGame::move(cMove^ move)
 	{
 		move_t Cmove;
-		Cmove.from = (const char*)(Runtime::InteropServices::Marshal::StringToHGlobalAnsi(move.from)).ToPointer();
-		Cmove.to = (const char*)(Runtime::InteropServices::Marshal::StringToHGlobalAnsi(move.to)).ToPointer();
+		Cmove.from = (const char*)(Runtime::InteropServices::Marshal::StringToHGlobalAnsi(move->from)).ToPointer();
+		Cmove.to = (const char*)(Runtime::InteropServices::Marshal::StringToHGlobalAnsi(move->to)).ToPointer();
 		bool test = mGame->move(Cmove);
 		return test;
 

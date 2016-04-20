@@ -21,7 +21,7 @@ namespace chessAI {
 		chessGame *mGame;
 	public:
 		cChessGame();
-		bool move(cMove move);
+		bool move(cMove^ move);
 
 		~cChessGame();
 

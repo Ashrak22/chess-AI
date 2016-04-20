@@ -19,7 +19,7 @@ Class chessAI.cChessGame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Interfaces:
     System.IDisposable
   Methods:
-    move(cMove IsByValue): PrivateScope, Public, HideBySig
+    move(cMove): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
 Class chessAI.cChessBoard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
