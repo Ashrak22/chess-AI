@@ -1,0 +1,5 @@
+D:\src\chess-AI\chess-lib\chess-lib\bin\Debug\chess-lib.dll
+D:\src\chess-AI\chess-lib\chess-lib\bin\Debug\chess-lib.pdb
+D:\src\chess-AI\chess-lib\chess-lib\obj\Debug\chess-lib.csprojResolveAssemblyReference.cache
+D:\src\chess-AI\chess-lib\chess-lib\obj\Debug\chess-lib.dll
+D:\src\chess-AI\chess-lib\chess-lib\obj\Debug\chess-lib.pdb
